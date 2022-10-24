@@ -1,0 +1,63 @@
+-------Vizsga--------
+
+Május 5.
+
+2-3 fős csoport
+KKI projektmunka
+
+
+
+--Asztali alkalmazás
+--mobilos alkalmazás/webes
+--Bekend
+
+Adat-Bázis->Bekend->asztali
+		  ->Webes
+
+
+github feltöltés
+--------------------
+Bekkend 
+1. óra
+frontend->bekkend->adatbázis(DB)
+Json adatok  
+request odafele
+crispass visszafele
+
+
+
+claravel
+
+
+
+INSERT INTO courses (course, price) VALUES
+("Laravel",12321312),
+("html",10),
+("sql",1312),
+("java",3312);
+
+insert into students(name,email,phone,course_id) values
+("Béla",bela@gmail.com,0630324289,2),
+("Károly",nemazenyem@gmail.com,0630324289,4),
+("Pista",ribanc@gmail.com,0630324289,1),
+("Anna",Annus@gmail.com,0630324289,2),
+("Cintia",cintike@gmail.com,0630324289,3),
+
+
+
+
+
+INSERT INTO course (course, price) VALUES
+("Laravel",12321312),
+("html",10),
+("sql",1312),
+("java",3312);
+
+insert into students(name,email,phone,course_id) values
+("Béla","bela@gmail.com",0630324289,2),
+("Károly","nemazenyem@gmail.com",0630324289,4),
+("Pista","ribanc@gmail.com",0630324289,1),
+("Anna","Annus@gmail.com",0630324289,2),
+("Cintia","cintike@gmail.com",0630324289,3);
+
+

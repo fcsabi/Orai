@@ -1,0 +1,33 @@
+<h1>Tölts ki a mezőket</h1>
+@if( $errors->any())
+<ul>
+
+    @foreach($errors->all()ad $error)
+    <li>
+        {{$error}}
+    </li>
+    @endforeach
+
+</ul>
+@endif
+
+
+
+<form action="submit-student" method="post">
+    {{csrf_field()}}
+    <p>
+        <label for=""> Név </label>
+        <input type="text" name="name" placeholder="NÉV">
+    </p>
+    <p>
+        <label for=""> Email </label>
+        <input type="text" name="email" placeholder="Email">
+    </p>
+    <p>
+        <label for=""> Telefon </label>
+        <input type="text" name="Phone" placeholder="Telefon">
+    </p>
+    <p>
+        <button type="submit">Küldés</button>
+    </p>
+</form>

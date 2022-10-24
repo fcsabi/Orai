@@ -1,0 +1,96 @@
+2022-09-07
+
+
+rest api
+vizsgaremek kötelezö rest api
+adatbázis-->backend
+UI--->frontend
+
+szabvány neve rest api
+http protokol
+
+
+backend-->webes kliens
+       -->asztali
+	-->mobil
+
+TypeScript
+javascript szuperhalmaza
+restfull
+utvonal
+https://akarmi.hu/dolgozok
+vegpont
+ utvonal
+npm init -y
+npm install typescript
+npx tsc -v
+
+
+
+
+Dolgozat
+okt 19.
+
+gyakorlati rész
+függvény irás
+html oldal  készitéde fügvényirással
+készitsenhtml oldalt ami bekér egy háromszög alapját és magasságát
+majd számoltassa ki a területét
+hare/
+\src
+
+
+
+1,milyen böngészöben lehet futtatni a typescript programokat?
+semilyenbe
+2,milyen parancsal lehet forditani a typescriptet
+npm install 
+3,minek a szuperhalmaza a typescript
+4,hogyan telepitünk nodejs segitségével typesript forditott?
+5,irjon példát amiben  "szam" nevü vátozónak ,számtipus állit be
+var szam:number;
+6,mire jo a tsc parancs
+java scriptet fordit
+7,milyen kiterjersztésü fájlokba irunk typescriptet
+ts
+8,irjon typescript tipust
+9,irjon példát void tipus használatára
+10,irjon példát olyan szöveges literálisra amiben változot helyetesitunk be
+var nev:String='Pali';
+var udv:String='Szia${nev}';
+11,irja le hogyan készitek elő egy számokat tárolni képes tömböt typescript nyelven
+var szamok:number[]=[];
+12,adott a szamok nevü tömb amiben számookat tárolhatunk hogyan tehetünk az üres tömbbe egy elemet
+szamok.push(23);
+13, irjon példát az union tipusra
+14,irjon typescriptet osztályt ami tárolj  egy jármü rendszámát,szinét árát
+15,mikor lehet egy függvény absztrak
+16,mire nem használható egy abszrakt osztály
+pédányositásra
+17,az interfész typsrcipten két modon használhato
+osztály tipus
+18,a typsrciptben milyen kulcsszoval használunk egy interfészt
+implements
+19,a typscript nyelvben milyen kulcsszoval örökitünk osztályt
+extends
+20,mi a kvetkezménye annak ha egy tagot(föggvény vagy adattag)statikusnak jelölöki
+példányositás nélkül használható
+21,
+
+
+
+
+union tipus
+var kod:string | number;
+kod=4323;
+console.log(kod);
+
+kod='abcd32';
+console.log(kod);
+
+npm init -y
+git init
+npm install lite-server typescript --save-dev
+
+
+users/diak/apdata/roaming/npm

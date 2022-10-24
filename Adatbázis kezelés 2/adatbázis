@@ -1,0 +1,18 @@
+Select alvaz, meret from kerekparok
+inner join meret on kerekparok.meret=meret.sid
+where size=id
+
+select marka,alvaz meret from bikes
+inner join sizes on bikes.sizeid=sizes.sid
+inner join brands on bikes
+
+
+select alvaz,marka,meret from kerekparok
+
+
+delimitter $$
+	create procedure fek()
+	begin
+		select * from fek;
+	end $$
+delimitter;

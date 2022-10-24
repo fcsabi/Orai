@@ -1,0 +1,21 @@
+drop database if exits bikerent;
+create database bikerent;
+/*
+Renters,Rents,types,Brands,sizes,brakes,bikes bike_rent
+*/
+
+create table renters(
+	renid integer not null primary key auto_increment,
+	name varchar(50),
+	email varchar(100),
+	phone varchar(20),
+	address varchar(255)
+);
+create table rents(
+	rid integer not null primary key auto_increment,
+	start date,
+	back date,
+	priceday double,
+	renterid integer,
+	foreign key(renterid) references (renid)
+);

@@ -1,0 +1,42 @@
+2022-09-05
+https://github.com/oktat/tan
+
+
+irjon interfészt ami elöirja az állast számamára  a hangadást 
+irjon osztályt ami megvalositja az interfészt.
+
+ürlapos rész.
+1,melyik adatot vehetem ki a lifo adatszerkezetböl
+last in first out
+2,melyik adatot vehetem ki a verem adatszerkezetböl
+last in first out
+3,melyik adatot vehetem ki a fifo adatszerkezetböl
+first in first out
+4,melyik adatot vehetem ki a sor adatszerkezetböl
+first in first out
+5,hogyan deklarálunk java nyelven interfészt?
+interface valami{}
+6,milyen csomagot használunk sql adatbézishoz eléréséhez?
+java.sql
+7. az sqlite ...... 
+az egész adatbáziss egyetlen fáljban van
+8,a java nyelvben sql kapcsolat kiépitéséhez a következö osztályt használom
+Connection
+9,a java nyelvben sql kapcsolatoknál a következö kivételt kell kezelni
+SQLexception
+10,a rekurziora igaz:
+önmagát hivó metodus
+11,melyik rendezésre érvényes balról elindul és egy elemet megy jobbra amigy nincs nagyibb
+buborek
+12,a bináris keresésre nem igaz
+mindig lassab mint a lineráris keresés
+13,a hashmapre igaz
+kulcs és értékparokat tárolunk benne
+14,enum tipusra igaz
+sorszámozott tipus
+15,java nyelvben sql kapcsolat kiépitéséhez a következő osztályt használom
+drivermanager
+
+npm install
+npm run ts
+npm start

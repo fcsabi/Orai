@@ -1,0 +1,38 @@
+DROP DATABASE IF EXISTS pizza;
+CREATE DATABASE pizza;
+
+DROP TABLE IF EXISTS megrendelő;
+CREATE TABLE megrendelő (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nev VARCHAR(40),
+    
+    
+    cim VARCHAR(40)
+);
+
+DROP TABLE IF EXISTS futarok;
+CREATE TABLE futarok (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nev VARCHAR(30),
+    telefon VARCHAR(30),
+    
+     
+);
+
+
+DROP TABLE IF EXISTS PIZZA;
+CREATE TABLE PIZZA (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    tipus VARCHAR(20),
+    NEVE VARCHAR(20),
+    meret VARCHAR(20),
+    
+);
+
+DROP TABLE IF EXISTS KISZALIT;
+CREATE TABLE KISZALIT (
+    idö varchar(40), 
+    pizza INT,
+    futarok INT
+    PIZZA int
+    );
